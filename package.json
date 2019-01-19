@@ -1,0 +1,24 @@
+{
+  "name": "express-intro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon 1-basic-routing.js",
+    "routers": "nodemon 2-router-modules.js"
+  },
+  "keywords": [
+    "Express",
+    "Demo"
+  ],
+  "author": "Ajar <yariv.gilad@gmail.com> (https://timetocode.io)",
+  "dependencies": {
+    "@ajar/marker": "^1.1.15",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
